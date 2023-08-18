@@ -26,7 +26,8 @@ import math
 a= 123146
 b= 3.5623
 c= - 654.485
-d= 0.1148
+d= 0.1148 * 50
+t= 40 * 5j
 
 print('16.', max(a,b,c,d))
 print('17.', max(0.14, 54, 32125, True))
@@ -45,3 +46,4 @@ print('29.',round(g / 89, 6))
 print('30.', g / 89)
 print('31.',pow(3, 2))
 print('32.',pow(3, 2, 3))
+print('33.',4 / t)
